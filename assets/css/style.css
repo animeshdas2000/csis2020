@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #f82249;
+  color: #f28e41;
   transition: 0.5s;
 }
 
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f82249;
+  background: #f28e41;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -81,14 +81,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-  background: #e0072f;
-  color: #fff;
+  background: #f28e41;
+  color: #f9f9f9;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #e0072f;
-  color: #fff;
+  background: #f28e41;
+  color: #f9f9f9;
 }
 
 /* Sections Header
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: #f1ab75;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
+  background: #262626;;
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
+  color: #f9f9f9;
 }
 
 #header #logo img {
@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(202, 206, 221, 0.8);
+  color: #f9f9f9;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .menu-active a, .nav-menu a:hover {
-  color: #fff;
+  color: #f9f9f9;
 }
 
 .nav-menu > li {
@@ -551,7 +551,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#f28e41 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -832,7 +832,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-radius: 50px;
   font-weight: 600;
-  background-color: #0e1b4d;
+  background-color: #262626;
   color: #fff;
   padding: 10px 100px;
 }
@@ -856,8 +856,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #f82249;
-  color: #fff;
+  background-color: #f28e41;
+  color: #f9f9f9;
 }
 
 #schedule .sub-heading {
@@ -885,7 +885,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item:hover {
-  background-color: #fff;
+  background-color: #f9f9f9;
 }
 
 #schedule .schedule-item time {
@@ -1497,14 +1497,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #101522;
+  background: #262626;
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: #352e2d;
   padding: 60px 0 30px 0;
 }
 
@@ -1523,7 +1523,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info img {
-  height: 40px;
+  height: 160px;
   margin-bottom: 10px;
 }
 
