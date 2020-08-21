@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
+  background: #f9f9f9;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
 }
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #f8234a;
+  color: #f1ab75;
   outline: none;
   text-decoration: none;
 }
@@ -608,7 +608,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #f82249;
+  border-left: 15px solid #f1ab75;
   transform: scale(20);
 }
 
@@ -645,6 +645,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #f28e41;
+
+}
+
+#intro .about-btn:hover {
+  background: #f28e41;
+  border: 2px solid #f82249;
 }
 
 #intro .about-btn:hover {
@@ -1377,6 +1383,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
   text-transform: uppercase;
   color: #352e2d;
+}
+
+#contact .contact-info a {
+  color: #352e2d;
+}
+
+#contact .contact-info a:hover {
+  color: #f28e41;
 }
 
 #contact .contact-info a {
