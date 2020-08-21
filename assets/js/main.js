@@ -31,6 +31,11 @@
     }
   });
 
+  $('footer').hover(
+    () => $('.banner-add').fadeOut('slow'), 
+    () => $('.banner-add').fadeIn('slow')
+  );
+
   if ($(window).scrollTop() > 100) {
     $('#header').addClass('header-scrolled');
   }

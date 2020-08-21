@@ -54,6 +54,17 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
 
+.banner-add {
+  position: fixed;
+  background: #262626;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  bottom: 0px;
+  transition: background 0.5s ease-in-out;
+}
+
 /* Back to top button */
 .back-to-top {
   position: fixed;
@@ -309,10 +320,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu li.buy-tickets a {
   color: #fff;
   background: #f28e41;
-  padding: 7px 22px;
-  border-radius: 50px;
-  border: 2px solid #f28e41;
-  background: #f82249;
   padding: 7px 22px;
   border-radius: 50px;
   border: 2px solid #f28e41;
@@ -638,6 +645,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #f28e41;
+
 }
 
 #intro .about-btn:hover {
@@ -646,7 +654,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn:hover {
-  background: #f82249;
+  background: #f28e41;
   color: #fff;
 }
 
@@ -1362,13 +1370,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
   margin-bottom: 10px;
   color: #f28e41;
-  color: #f82249;
 }
 
 #contact .contact-info address, #contact .contact-info p {
   margin-bottom: 0;
   color: #352e2d;
-  color: #112363;
 }
 
 #contact .contact-info h3 {
@@ -1385,15 +1391,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .contact-info a:hover {
   color: #f28e41;
-  color: #112363;
 }
 
 #contact .contact-info a {
-  color: #4869df;
+  color: #352e2d;
 }
 
 #contact .contact-info a:hover {
-  color: #f82249;
+  color: #f28e41;
 }
 
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
@@ -1543,7 +1548,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info img {
-  height: 160px;
+  height: 100px;
   margin-bottom: 10px;
 }
 
@@ -1598,13 +1603,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
   color: #f28e41;
-  color: #f82249;
   font-size: 18px;
 }
 
 #footer .footer-top .footer-links ul li {
   border-bottom: 1px solid #352e2d;
-  border-bottom: 1px solid #262c44;
   padding: 10px 0;
 }
 
@@ -1618,7 +1621,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul a:hover {
   color: #f28e41;
-  color: #f82249;
 }
 
 #footer .footer-top .footer-contact {
@@ -1641,7 +1643,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
   background: #f28e41;
-  background: #f82249;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1664,3 +1665,4 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
