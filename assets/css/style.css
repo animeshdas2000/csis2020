@@ -95,12 +95,12 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 6px;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
 }
-
+*/
 .back-to-top:focus {
   background: #f28e41;
   color: #f9f9f9;
