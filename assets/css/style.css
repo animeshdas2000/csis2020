@@ -840,7 +840,7 @@ About Student Branch
 #about-sb 
 ----------------------------------------------------------------
 */
-#about-sb {
+.about-custom {
   padding: 60px 0 60px 0;
   opacity: 1;
 }
