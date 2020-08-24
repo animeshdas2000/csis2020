@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #262626;
 }
 .banner-add {
+  border-top: 2px solid #262626;
   position: fixed;
-  background: #262626;
-  opacity: .5;
-  color: #fff;
+  background: #f9f9f9 ;
+  color: #262626;
   width: 100%;
   height: 100px;
   text-align: center;
@@ -95,12 +95,12 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 6px;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
 }
-
+*/
 .back-to-top:focus {
   background: #f28e41;
   color: #f9f9f9;
@@ -497,7 +497,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/pune-shaniwar-wada-0.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -836,6 +836,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+About Student Branch 
+#about-sb 
+----------------------------------------------------------------
+*/
+#about-sb {
+  padding: 60px 0 60px 0;
+  opacity: 1;
+}
+/*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
 #schedule {
@@ -1026,56 +1035,59 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Hotels Section
+# Teams Section
 --------------------------------------------------------------*/
-#hotels {
+#teams {
   padding: 60px 0;
 }
 
-#hotels .hotel {
+#teams .single-team img {
+  width: 100%; }
+
+#teams .hotel {
   border: 1px solid #e0e5fa;
   background: #fff;
   margin-bottom: 30px;
 }
 
-#hotels .hotel:hover .hotel-img img {
+#teams .hotel:hover .hotel-img img {
   transform: scale(1.1);
 }
 
-#hotels .hotel-img {
+#teams .hotel-img {
   overflow: hidden;
   margin-bottom: 15px;
 }
 
-#hotels .hotel-img img {
+#teams .hotel-img img {
   transition: 0.3s ease-in-out;
 }
 
-#hotels h3 {
+#teams h3 {
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 5px;
   padding: 0 20px;
 }
 
-#hotels a {
+#teams a {
   color: #152b79;
 }
 
-#hotels a:hover {
+#teams a:hover {
   color: #f82249;
 }
 
-#hotels .stars {
+#teams .stars {
   padding: 0 20px;
   margin-bottom: 5px;
 }
 
-#hotels .stars i {
+#teams .stars i {
   color: #ffc31d;
 }
 
-#hotels p {
+#teams p {
   padding: 0 20px;
   margin-bottom: 20px;
   color: #060c22;
