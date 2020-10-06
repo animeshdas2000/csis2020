@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <header id="header">
+  <header id="header" style="background: #262626">
     <div class="container">
 
       <div id="logo" class="pull-left">
@@ -39,14 +39,15 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#schedule">Event Details</a></li>
-          <li><a href="#speakers">Speakers</a></li>
-          <li><a href="#supporters">Sponsors</a></li>
-         <!--  <li><a href="#teams">Team</a></li> -->
-          <li><a href="#faq">FAQ</a></li>
-          <!-- <li><a href="#venue">Venue</a></li> -->
+          <li ><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#schedule">Event Details</a></li>
+          <li><a href="index.html#speakers">Speakers</a></li>
+          <li><a href="index.html#supporters">Sponsors</a></li>
+          <li class="menu-active"><a href="#">Team</a></li>
+         <!--  <li><a href="index.html#teams">Team</a></li> -->
+          <li><a href="index.html#faq">FAQ</a></li>
+          <!-- <li><a href="index.html#venue">Venue</a></li> -->
           <li><a href="#contact">Contact</a></li>
           <!-- <li class="buy-tickets"><a href="#buy-tickets">Register Now</a></li> -->
         </ul>
@@ -55,7 +56,7 @@
   </header>
   <!-- ======= Teams Section ======= -->
 
-  <section id="teams" class="section">
+  <section id="teams" class="section mt-5">
 
     <div class="container" data-aos="fade-up">
       <div class="section-header">
@@ -201,19 +202,37 @@
           <div class="col-lg-4 col-sm-6">
               <div class="single-team">
                    <div class="card" style="width: 18rem; margin-bottom: 20px">
-                    <img src="assets/img/teams/Vaibhav Kothi.jpg" class="card-img-top" alt="Design Team">
+                    <img src="assets/img/teams/Saiteja Goud K.jpg" class="card-img-top" alt="Program Committe">
                     <div class="card-body">
-                      <center><h5 class="card-title">Vaibhav Kothi</h5></center>
-                      <center><p class="card-text">Design Team - Lead</p></center>
+                      <center><h5 class="card-title">Sai Teja Goud K</h5></center>
+                      <center><p class="card-text">Program Committee - Lead</p></center>
                       <center>
                         <div class="social-links">
                         <h6>
-                          Connect with me : <a href="https://www.linkedin.com/in/vaibhavkothi" class="linkedin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                          <a href="sampark@vaibhav.wtf"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                          Connect with me : <a href="https://www.linkedin.com/in/saiteja-goud-karingu-hyd/" class="linkedin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                         </h6>
                       </div>
                       </center>
-                      <center><h5 class="card-title"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#designModal">Design Team</button></h5></center>
+                      <center><h5 class="card-title"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#prgModal">Program Committee</button></h5></center>
+                    </div>
+                  </div>
+              </div> <!-- single team -->
+          </div>
+          <div class="col-lg-4 col-sm-6">
+              <div class="single-team">
+                   <div class="card" style="width: 18rem; margin-bottom: 20px">
+                    <img src="assets/img/teams/Akash Nair.jpg" class="card-img-top" alt="Registration Team">
+                    <div class="card-body">
+                      <center><h5 class="card-title">Akash Nair</h5></center>
+                      <center><p class="card-text">Registration Team - Lead</p></center>
+                      <center>
+                        <div class="social-links">
+                        <h6>
+                          Connect with me : <a href="https://www.linkedin.com/in/akashnair26" class="linkedin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        </h6>
+                      </div>
+                      </center>
+                      <center><h5 class="card-title"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#regModal">Registration Team</button></h5></center>
                     </div>
                   </div>
               </div> <!-- single team -->
@@ -279,25 +298,6 @@
           <div class="col-lg-4 col-sm-6">
               <div class="single-team">
                    <div class="card" style="width: 18rem; margin-bottom: 20px">
-                    <img src="assets/img/teams/Saiteja Goud K.jpg" class="card-img-top" alt="Program Committe">
-                    <div class="card-body">
-                      <center><h5 class="card-title">Sai Teja Goud K</h5></center>
-                      <center><p class="card-text">Program Committee - Lead</p></center>
-                      <center>
-                        <div class="social-links">
-                        <h6>
-                          Connect with me : <a href="https://www.linkedin.com/in/saiteja-goud-karingu-hyd/" class="linkedin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                        </h6>
-                      </div>
-                      </center>
-                      <center><h5 class="card-title"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#prgModal">Program Committee</button></h5></center>
-                    </div>
-                  </div>
-              </div> <!-- single team -->
-          </div>
-          <div class="col-lg-4 col-sm-6">
-              <div class="single-team">
-                   <div class="card" style="width: 18rem; margin-bottom: 20px">
                     <img src="assets/img/teams/shivam grover.jpg" class="card-img-top" alt="Publicity Team">
                     <div class="card-body">
                       <center><h5 class="card-title">Shivam Grover</h5></center>
@@ -318,18 +318,19 @@
           <div class="col-lg-4 col-sm-6">
               <div class="single-team">
                    <div class="card" style="width: 18rem; margin-bottom: 20px">
-                    <img src="assets/img/teams/Akash Nair.jpg" class="card-img-top" alt="Registration Team">
+                    <img src="assets/img/teams/Vaibhav Kothi.jpg" class="card-img-top" alt="Design Team">
                     <div class="card-body">
-                      <center><h5 class="card-title">Akash Nair</h5></center>
-                      <center><p class="card-text">Registration Team - Lead</p></center>
+                      <center><h5 class="card-title">Vaibhav Kothi</h5></center>
+                      <center><p class="card-text">Design Team - Lead</p></center>
                       <center>
                         <div class="social-links">
                         <h6>
-                          Connect with me : <a href="https://www.linkedin.com/in/akashnair26" class="linkedin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                          Connect with me : <a href="https://www.linkedin.com/in/vaibhavkothi" class="linkedin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                          <a href="sampark@vaibhav.wtf"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                         </h6>
                       </div>
                       </center>
-                      <center><h5 class="card-title"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#regModal">Registration Team</button></h5></center>
+                      <center><h5 class="card-title"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#designModal">Design Team</button></h5></center>
                     </div>
                   </div>
               </div> <!-- single team -->
