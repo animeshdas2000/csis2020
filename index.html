@@ -45,6 +45,19 @@
   </head>
 
   <body>
+    <script>
+      window.watsonAssistantChatOptions = {
+          integrationID: "abda27b1-4f6e-4fcb-8c26-043b7eae3eab", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "b99f96a9-3f32-4255-ba59-fe445b10b0ae", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+      });
+    </script>
     <header id="header">
       <div class="container">
         <div id="logo" class="pull-left">
@@ -1147,19 +1160,6 @@
           document.getElementById("demo").innerHTML = "Csis20 Has Started";
         }
       }, 1000);
-    </script>
-    <script>
-        window.watsonAssistantChatOptions = {
-            integrationID: "abda27b1-4f6e-4fcb-8c26-043b7eae3eab", // The ID of this integration.
-            region: "us-south", // The region your integration is hosted in.
-            serviceInstanceID: "b99f96a9-3f32-4255-ba59-fe445b10b0ae", // The ID of your service instance.
-            onLoad: function(instance) { instance.render(); }
-          };
-        setTimeout(function(){
-          const t=document.createElement('script');
-          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
-          document.head.appendChild(t);
-        });
     </script>
   </body>
 </html>
