@@ -1691,3 +1691,26 @@ About Student Branch
   border-radius: 100px;
   text-align: center;
 }
+
+
+.track {
+  background-color:#f28e41;
+  color: black;
+  height: 100% ; 
+  width: 100%; 
+  padding: 25px; 
+  margin-bottom : 40px;
+}
+
+
+.track-dark {
+  background-color:#262626;
+}
+
+.track-dark h3 {
+  color: white;
+}
+
+.track-dark p {
+  color: lightgray;
+}
