@@ -790,7 +790,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details a:hover {
-  color: #f82249;
+  color: #f28e41;
 }
 
 #speakers .speaker:hover .details {
@@ -825,7 +825,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: #f82249;
+  background: #f28e41;
   color: #fff;
 }
 
@@ -1080,7 +1080,7 @@ About Student Branch
 }
 
 #teams a:hover {
-  color: #f82249;
+  color: #f28e41;
 }
 
 #teams .stars {
