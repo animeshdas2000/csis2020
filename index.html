@@ -814,12 +814,17 @@ Dive into the infinite world of the qubits and experience the most interesting c
           <div  class="row"
           style="align-content: center;">
           
-            <img src="./assets/img/sponsors/jetbrains.png" class="col-md-3 d-flex " alt="">
-            <img src="./assets/img/sponsors/cake_logo_blue_gray.svg" class="col-md-3 d-flex " alt="">
-             <img src="./assets/img/sponsors/balsamiq-logo-noborder-screen.svg" class="col-md-3 d-flex " alt="">
-             <img src="./assets/img/sponsors/taskade-circle-logo.png" class="col-md-3 d-flex "  alt="">
+            <img src="./assets/img/sponsors/jetbrains.png" class="col-md-3  " data-toggle="tooltip" data-placement="top" title="Jetbrains" alt="">
+            <img src="./assets/img/sponsors/cake_logo_blue_gray.svg" class="col-md-3  " alt="">
+             <img src="./assets/img/sponsors/balsamiq-logo-noborder-screen.svg" class="col-md-3" alt="">
+             <img src="./assets/img/sponsors/taskade-circle-logo.png" class="col-md-3 "  alt="">
             </div>
-            <div class="row" style="align-content: center; margin: 20px 0;">  </div>
+            <h3 style="text-align: center;margin: 10px 0;">Activity Sponsor & Intern Partner</h3>
+            <div class="row " style="align-content: center; margin: 20px 0;"> 
+            
+
+              <img src="./assets/img/sponsors/sashido-logo-for sites.png"  width="200px" class="col-md-3 mx-auto d-block" data-toggle="tooltip" data-placement="top" title="Sashido" alt="">
+              </div>
             <a href="assets/Sponsorship-Brochure.pdf" target="_blank"  download><button class="btn btn sponsor-us">Become
               Sponsor!</button></a>
 
@@ -1353,6 +1358,9 @@ Dive into the infinite world of the qubits and experience the most interesting c
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
   <script>
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 31, 2020 00:00:00").getTime();
