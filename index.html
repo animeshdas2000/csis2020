@@ -811,22 +811,32 @@ Dive into the infinite world of the qubits and experience the most interesting c
           <div class="section-header">
             <h2>Sponsors</h2>
           </div>
-          <div  class="row"
-          style="align-content: center;">
+          <div  class="row  align-items-center justify-content-center">
           
-            <img src="./assets/img/sponsors/jetbrains.png" class="col-md-3  " data-toggle="tooltip" data-placement="top" title="Jetbrains" alt="">
-            <img src="./assets/img/sponsors/cake_logo_blue_gray.svg" class="col-md-3  " alt="">
-             <img src="./assets/img/sponsors/balsamiq-logo-noborder-screen.svg" class="col-md-3" alt="">
-             <img src="./assets/img/sponsors/taskade-circle-logo.png" class="col-md-3 "  alt="">
+            <a class="col-md-3" href="https://www.jetbrains.com/" data-toggle="tooltip" data-placement="top" title="Jetbrains" target="_blank">
+            	<img src="./assets/img/sponsors/jetbrains.png" class="sponsor-logo" alt="Jetbrains">
+            </a>
+            <a class="col-md-3" href="https://www.interviewcake.com/" data-toggle="tooltip" data-placement="top" title="Interview Cake" target="_blank">
+            	<img src="./assets/img/sponsors/cake_logo_blue_gray.svg" class="sponsor-logo" alt="Interview Cake">
+            </a>
+            <a class="col-md-3" href="https://balsamiq.com/" data-toggle="tooltip" data-placement="top" title="Balsamiq" target="_blank">
+            	<img src="./assets/img/sponsors/balsamiq-logo-noborder-screen.svg" class="sponsor-logo" alt="Balsamiq">
+            </a>
+            <a class="col-md-3" href="https://www.taskade.com/" data-toggle="tooltip" data-placement="top" title="Taskade" target="_blank">
+            	<img src="./assets/img/sponsors/taskade-circle-logo.png" class="sponsor-logo" alt="Taskade">
+            </a>
             </div>
             <h3 style="text-align: center;margin: 10px 0;">Activity Sponsor & Intern Partner</h3>
-            <div class="row " style="align-content: center; margin: 20px 0;"> 
+            <div class="row align-items-center justify-content-center"> 
             
 
-              <img src="./assets/img/sponsors/sashido-logo-for sites.png"  width="200px" class="col-md-3 mx-auto d-block" data-toggle="tooltip" data-placement="top" title="Sashido" alt="">
+            <a class="col-md-3" href="https://www.sashido.io/en/" data-toggle="tooltip" data-placement="top" title="Sashido" target="_blank">
+            	<img src="./assets/img/sponsors/sashido-logo-for sites.png" class="sponsor-logo" alt="Sashido">
+            </a>
               </div>
-            <a href="assets/Sponsorship-Brochure.pdf" target="_blank"  download><button class="btn btn sponsor-us">Become
-              Sponsor!</button></a>
+            <a class="" href="assets/Sponsorship-Brochure.pdf" target="_blank"  download>
+            	<button class="btn btn sponsor-us">Become Sponsor!</button>
+          	</a>
 
           <!-- <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100"> -->
 
@@ -1431,7 +1441,21 @@ Dive into the infinite world of the qubits and experience the most interesting c
       }
     }, 1000);
   </script>
+  
 
+    <script>
+      window.watsonAssistantChatOptions = {
+          integrationID: "abda27b1-4f6e-4fcb-8c26-043b7eae3eab", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "b99f96a9-3f32-4255-ba59-fe445b10b0ae", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+      });
+    </script>
 </body>
 
 </html>
